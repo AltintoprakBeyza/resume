@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/food">
+      <button>Lütfen bu formu gönderme!</button>
+      <label for="username">Kullanıcı Adı Giriniz</label>
+      <input id="username" type="text" placeholder="Kullanıcı Adı" />
+
+      <label for="sifre">Şifre</label>
+      <input id="sifre" type="password" placeholder="Şifre" />
+      <button>Gönder</button>
+
+      <label for="renk">Renk Seçiniz</label>
+      <input id="renk" type="color" placeholder="Color" />
+
+      <label for="sayi">Sayı Giriniz</label>
+      <input id="sayi" type="number" placeholder="Number" />
+      <button>Submit</button>
+    </form>
+    <hr />
+
+    <form action="https://www.reddit.com/search">
+      <label for="search">Search Reddit</label>
+      <input type="text" id="search" name="q" />
+      <button>Reddit'te ara</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <label for="search">Search Google</label>
+      <input type="text" id="search" name="q" />
+      <button>Google'da ara</button>
+    </form>
+  </body>
+</html>
